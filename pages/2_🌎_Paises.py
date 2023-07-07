@@ -5,7 +5,6 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime
 import folium
-from haversine import haversine
 import streamlit as st
 from streamlit_folium import folium_static
 from PIL import Image
@@ -32,7 +31,7 @@ st.set_page_config(
     layout='wide'
 )
 
-image_path = 'logo.png'
+image_path = 'img/logo.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width=120)
 

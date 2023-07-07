@@ -1,9 +1,6 @@
 # Imports
 import pandas as pd
 import plotly.express as px
-from datetime import datetime
-import folium
-from haversine import haversine
 import streamlit as st
 from streamlit_folium import folium_static
 from PIL import Image
